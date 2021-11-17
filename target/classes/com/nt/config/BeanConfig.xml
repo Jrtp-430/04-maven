@@ -3,9 +3,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id ="sPrinter" class="AshokIt.git.SoneyPrinter"></bean>
+<bean id ="sPrinter" class="AshokIt.git.SoneyPrinter"/>
+<bean id="lgprinter" class="AshokIt.git.LgPrinter"/>
 <bean id ="Atm" class="AshokIt.git.Atm">
-<property name="print" ref="sPrinter"/>
-
+<constructor-arg name="print" ref="lgprinter"/>
 </bean>
 </beans>

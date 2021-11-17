@@ -7,7 +7,7 @@ public class SoneyPrinter implements IPrinter {
 
 	@Override
 	public void print() {
-		System.out.println("print the resipt");
+		System.out.println("print the resipt byu using lg printer");
 
 	}
 

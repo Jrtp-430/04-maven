@@ -13,5 +13,4 @@ public class HpPrinter implements IPrinter {
 	public void m1() {
 		System.out.println("thank u");
 	}
-
 }
